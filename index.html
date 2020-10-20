@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Marck+Script&display=swap" rel="stylesheet">
+  
+    <title>Le Juste prix</title>
+    
+</head>
+<body>
+    <img id="timeIcone" src="clock3.png" alt="timeIcone">
+    <img id="timeOff" src="ockloc4.png" alt="timeIconeOff">
+    <audio id ="songTime" src="sonTimer.mp3" loop></audio>
+    <div class="leJustePrix">Le Juste Prix </div>
+
+    <form id="formulaire">
+        <div class="contenue">
+        <h4 id="label">Vous avez 5 Minutes chrono :</h4>    
+        <input id="chronomêtre" value="00 : 00" style="background-color: aquamarine;">
+        <input type="text" id="prix" placeholder="    Deviner le prix ! (entre 0 et 1000)"><br>
+        <button type="submit" id="bouton">Deviner</button><br>
+        <small class="error">Vous devez mettre un nombre!</small>
+        </div>
+
+
+    </form>
+
+    <div>
+
+        <div id="instructions"></div>
+
+    </div>
+      
+    </div>
+
+
+    
+
+
+
+<script src="script.js"> </script>
+</body>
+    
+
+
+</html>

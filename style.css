@@ -1,0 +1,198 @@
+html, body{
+    background-color: black;
+}
+#timeOff{
+  display: none;
+  cursor: pointer;
+}
+#timeIcone{
+  cursor: pointer;
+}
+.leJustePrix{
+    font-size: 60px;
+    color: orangered;
+    text-align: center;
+    margin-top: 200px;
+}
+#formulaire{
+    background-color: white;
+    width: 50%;
+    height: 200px;
+    margin-left: 25%;
+}
+.contenue{
+  width: 100%;
+  height: 40%;
+ text-align: center;
+}
+#prix{
+    height: 30px;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 16px;
+}
+#chronomêtre{
+    height: 30px;
+    width: 30%;
+    margin-left: 65px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+#bouton{
+    background-color: blue;
+    height: 40px;
+    width: 20%;
+    font-weight: bold;
+    color: white;
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: large;
+    border-radius: 10px;
+}
+.error{
+    color: red;
+    margin-left: 65px;
+}
+
+#instructions {
+    color: white;
+  }
+  
+  .instruction {
+    padding: 15px;
+    margin: 10px 0;
+    width: 48%;
+    margin-left: 27%;
+  }
+  
+  .plus {
+    background : linear-gradient( to left, red, green, blue, yellow);
+    color :black;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .moins {
+    background : linear-gradient(to right, orange, pink, orangered, yellowgreen);
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .fini {
+    background : linear-gradient(to left, white, green, red, green, blue, yellow);
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .arret{
+    background-color: chartreuse;
+    color :black;
+    font-size: 20px;
+    font-weight: bold;
+
+  }
+
+
+  @media (min-width: 769px) and (max-width: 1024px){
+    .leJustePrix{
+      font-size: 30px;
+    }
+    #chronomêtre{
+      width: 100px;
+      margin-left: 10px;
+
+    }
+    #formulaire{
+      height: 400px;
+      padding-top: 100px;
+    }
+    #prix{
+      font-size: 9px;
+      width: 200px;
+      margin-left: 5px;
+      font-size: 12px;
+    }
+    #bouton{
+      margin-top: 40px;
+      width: 80px;
+      background-color: brown;
+    }
+  }
+  @media (max-width: 768px){
+    .leJustePrix{
+      font-size: 30px;
+    }
+    #chronomêtre{
+      width: 100px;
+      margin-left: 10px;
+    }
+    #formulaire{
+      height: 300px;
+      padding-top: 80px;
+    }
+    #prix{
+      font-size: 9px;
+      width: 200px;
+      margin-left: 5px;
+      font-size: 12px;
+    }
+    #bouton{
+      margin-top: 20px;
+      width: 80px;
+    }
+  }
+
+  @media (max-width: 375px){
+    .leJustePrix{
+      font-size: 20px ;
+    }
+    #bouton{
+      font-size: medium ;
+      width: 70px;
+      margin-top: 5px;
+    }
+    #formulaire{
+      width:250px;
+      margin-top: -50px;
+      margin-left: 50px;
+    }
+    #chronomêtre{
+      width: 80px;
+      margin-left: 10px;
+    }
+    #prix{
+      font-size: 9px;
+      width: 150px;
+      margin-left: 5px;
+    }
+
+  }
+  @media (max-width: 414px){
+    .leJustePrix{
+      font-size: 20px;
+    }
+    #bouton{
+      font-size: medium ;
+      width: 70px;
+      margin-top: 5px;
+    }
+    #chronomêtre{
+      width: 150px;
+      margin-left: 10px;
+    }
+    #prix{
+      font-size: 9px;
+      width: 150px;
+      margin-left: 5px;
+    }
+    #formulaire{
+      height: 220px;
+      width: 300px;
+      margin-left: 50px;
+    }
+    
+
+  }
